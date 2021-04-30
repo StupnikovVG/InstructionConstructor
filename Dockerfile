@@ -3,4 +3,4 @@ FROM onescript
 
 COPY ./src /usr/bin
 
-ENTRYPOINT oscript /usr/bin/main.os decompile --s ./src/cf --i ./src/inst
+ENTRYPOINT oscript /usr/bin/main.os decompile --src-path ./src/cf --ins-path ./src/inst
