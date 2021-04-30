@@ -1,0 +1,1 @@
+oscript /usr/bin/src/main.os
