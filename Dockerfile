@@ -2,4 +2,9 @@ FROM evilbeaver/onescript:latest
 
 COPY ./src /usr/bin
 
-ENTRYPOINT /usr/bin/sh/instructor.sh
+RUN opm install cmdline
+RUN opm install logos
+RUN opm install 1commands
+RUN opm install tempfiles
+
+ENTRYPOINT oscript /usr/bin/main.os
