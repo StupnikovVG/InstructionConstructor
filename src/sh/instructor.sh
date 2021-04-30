@@ -1,1 +1,1 @@
-oscript /usr/bin/src/main.os
+oscript /usr/bin/main.os
