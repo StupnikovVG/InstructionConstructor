@@ -1,7 +1,7 @@
 FROM onescript
 
 COPY ./src /usr/bin
-COPY ./tests /usr/bin/tests
+# COPY ./tests /usr/bin/tests
 
 ADD https://github.com/jgm/pandoc/releases/download/2.13/pandoc-2.13-1-amd64.deb /tmp
 
