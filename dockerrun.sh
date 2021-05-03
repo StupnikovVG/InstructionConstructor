@@ -1,0 +1,1 @@
+docker run --rm -v /Users/administrator/Repo/Instructor:/usr/bin/repo instructor oscript /usr/bin/repo/src/main.os compile --src-path /usr/bin/repo/tests/cf --ins-path /usr/bin/repo/tests/inst
