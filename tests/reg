@@ -1,0 +1,4 @@
+cat tests/cf/Catalogs/Справочник1/Ext/Help/ru.html |
+sed -r "s/.*<body>//" | 
+sed -r "s/<\/body>.*//" |
+pandoc -f html -t markdown
