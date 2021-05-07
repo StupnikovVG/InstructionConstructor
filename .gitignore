@@ -1,1 +1,3 @@
 .DS_Store
+tests/1.cf
+compile.bat
